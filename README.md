@@ -8,7 +8,7 @@ Repositório destinado aos exercícios e atividades desenvolvidos na disciplina 
 * Exercícios de Programação Orientada a Objetos (POO)
 * Exercícios práticos desenvolvidos durante as aulas
 
-## Tecnologias
+## Tecnologias e Ferramentas
 
 * Python
 * PyCharm
