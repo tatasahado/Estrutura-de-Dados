@@ -14,7 +14,7 @@ class Retangulo:
         return (self.ladoA * self.ladoB)
 
     def calcularPerimetro(self):
-        return (self.ladoA + self.ladoB)
+        return 2 * (self.ladoA + self.ladoB)
 
 
 ladoA = float(input("Digite o comprimento do local (em metros): "))
