@@ -2,7 +2,7 @@ class Macaco:
 
     def __init__(self, nome):
         self.nome = nome
-        self.bucho = []
+        self.bucho = [] # lista vazia
 
     def comer(self, alimento):
         self.bucho.append(alimento)
@@ -14,7 +14,6 @@ class Macaco:
         self.bucho = []
 
 
-# Criando dois macacos
 macaco1 = Macaco("Will")
 macaco2 = Macaco("Chico")
 
@@ -28,12 +27,10 @@ macaco2.comer("Banana")
 macaco2.comer("Uva")
 macaco2.comer("Manga")
 
-# Verificando o conteúdo do estômago
 print("Bucho do", macaco1.nome, ":", macaco1.verBucho())
 print("Bucho do", macaco2.nome, ":", macaco2.verBucho())
 
-# Fazendo o primeiro macaco digerir
 macaco1.digerir()
 
 print("\nDepois de digerir:")
-print("Bucho do", macaco1.nome, ":", macaco1.verBucho())
+print("Bucho do", macaco1.nome, ":", "Está vazio!", macaco1.verBucho())

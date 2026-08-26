@@ -30,8 +30,12 @@ print("Canal:", tv1.canal)
 print("Volume:", tv1.volume)
 
 tv1.aumentarVolume()
+
+print("\nDepois de aumentar:")
+print("Volume:", tv1.volume)
+
 tv1.diminuirVolume()
 
-print("\nDepois das alterações:")
-print("Canal:", tv1.canal)
+print("\nDepois de diminuir:")
 print("Volume:", tv1.volume)
+

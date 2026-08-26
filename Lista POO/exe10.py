@@ -36,22 +36,20 @@ class BombaCombustivel:
 bomba = BombaCombustivel("Gasolina", 6.00, 1000)
 
 print("Combustível:", bomba.tipoCombustivel)
-print("Valor do litro: R$", bomba.valorLitro)
+print(f"Valor do litro: R$ {bomba.valorLitro:.2f}")
 print("Quantidade disponível:", bomba.quantidadeCombustivel, "litros")
 
-# Abastecendo por valor
+
 print("\nAbastecimento por valor:")
 bomba.abastecerPorValor(60)
-
 print("Combustível restante:", bomba.quantidadeCombustivel, "litros")
 
-# Abastecendo por litros
+
 print("\nAbastecimento por litros:")
 bomba.abastecerPorLitro(20)
-
 print("Combustível restante:", bomba.quantidadeCombustivel, "litros")
 
-# Alterando o valor do combustível
+
 bomba.alterarValor(6.50)
 
-print("\nNovo valor do litro: R$", bomba.valorLitro)
+print(f"\nNovo valor do litro: R$ {bomba.valorLitro:.2f}")
