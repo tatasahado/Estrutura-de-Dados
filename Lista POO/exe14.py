@@ -15,11 +15,11 @@ class Funcionario:
         self.salario += aumento
 
 
-harry = Funcionario("Harry", 25000)
+pessoa = Funcionario("Harry", 25000)
 
-print("Nome:", harry.getNome())
-print(f"Salário antes do aumento: R$ {harry.getSalario():.2f}")
+print("Nome:", pessoa.getNome())
+print(f"Salário antes do aumento: R$ {pessoa.getSalario():.2f}")
 
-harry.aumentarSalario(10)
+pessoa.aumentarSalario(10)
 
-print(f"Salário depois do aumento: R$ {harry.getSalario():.2f}")
+print(f"Salário depois do aumento: R$ {pessoa.getSalario():.2f}")

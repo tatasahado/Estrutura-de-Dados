@@ -67,6 +67,8 @@ while True:
         for bichinho in fazenda:
             print(bichinho)
 
+        break
+
     elif opcao == "4":
 
         print("Programa encerrado.")

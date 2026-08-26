@@ -9,7 +9,8 @@ class ContaInvestimento:
         self.saldo += juros
 
 
-conta = ContaInvestimento(1000, 0.10)
+saldo = float(input("Digite o saldo inicial: "))
+conta = ContaInvestimento(saldo, 0.10)
 
 conta.adicionarJuros()
 conta.adicionarJuros()

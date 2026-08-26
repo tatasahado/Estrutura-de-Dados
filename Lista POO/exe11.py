@@ -18,7 +18,9 @@ class Carro:
 meuFusca = Carro(15)
 
 meuFusca.adicionarGasolina(40)
+print("Gasolina obtida: ", meuFusca.obterGasolina(), "litros")
 
 meuFusca.andar(100)
 
+print("\nApós andar 100km:")
 print(f"Gasolina restante:  {meuFusca.obterGasolina():.2f} litros")

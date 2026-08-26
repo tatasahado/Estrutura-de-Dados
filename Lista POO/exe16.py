@@ -41,9 +41,9 @@ while True:
         bichinho.brincar(tempo)
 
     elif opcao == "3":
+
+        print("\nDados do Bichinho:")
+        print(bichinho)
+
         print("Programa encerrado.")
         break
-
-    else:
-        print("\n*** PORTA ESCONDIDA ***")
-        print(bichinho)
